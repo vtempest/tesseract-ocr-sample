@@ -42,6 +42,7 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
+*.sdf
 
 # Build results
 [Dd]ebug/
