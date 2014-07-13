@@ -9,7 +9,9 @@ To include this in your own projects, you will need to reference the header file
 Copy the tesseract-include folder to the root folder of your project. Now Click on your project in Visual Studio Solution Explorer, and go to Project>Properties. 
 
 VC++ Directories>Include Directories:
-```..\tesseract-include\tesseract;..\tesseract-include\leptonica;$(IncludePath)```
+```
+..\tesseract-include\tesseract;..\tesseract-include\leptonica;$(IncludePath)
+```
 
 C/C++>Preprocessor>Preprocessor Definitions:
 ```_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)```
