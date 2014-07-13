@@ -32,7 +32,7 @@ Now you can include headers in your project's file:
 
 Now copy the two dll files in tesseract-include and the tessdata folder in Debug to the Output Directory of your project.
 
-When you initialize tesseract, you need to specify the location of the parent folder (!important) of the tessdata folder if it is not already the current directory of your executable file. You can copy my script, which assumes tessdata will is installed in the executable's folder.
+When you initialize tesseract, you need to specify the location of the parent folder (!important) of the tessdata folder if it is not already the current directory of your executable file. You can copy my script, which assumes tessdata  is installed in the executable's folder.
 
 ```
 tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
