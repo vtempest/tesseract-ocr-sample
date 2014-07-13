@@ -9,8 +9,8 @@
 
 using namespace std;
 
-string ocr(string preprocessed_file);
-string preprocess(string source_file);
+string tesseract_ocr(string preprocessed_file);
+string tesseract_preprocess(string source_file);
 void toClipboard(string s);
 
 
