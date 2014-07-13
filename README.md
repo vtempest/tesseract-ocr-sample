@@ -19,8 +19,10 @@ C/C++>Linker>Input>Additional Dependencies:
 
 Now you can include headers in your project's file:
 
-```#include <baseapi.h>
-#include <allheaders.h>```
+```
+#include <baseapi.h>
+#include <allheaders.h>
+```
 
 Now copy the two dll files in tesseract-include and the tessdata folder in Debug to the Output Directory of your project.
 
