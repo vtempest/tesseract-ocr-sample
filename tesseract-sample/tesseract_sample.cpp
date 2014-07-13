@@ -33,10 +33,10 @@ int main(int argc, char** argv)
 	}
 
 	//preprocess to convert to black white book-like text
-	string preprocessed_file = preprocess(source_file);
+	string preprocessed_file = tesseract_preprocess(source_file);
 
 	//ocr and display results
-	string ocr_result = ocr(preprocessed_file);
+	string ocr_result = tesseract_ocr(preprocessed_file);
 
 	std::cout << ocr_result.c_str();
 
@@ -45,7 +45,7 @@ int main(int argc, char** argv)
 	return 1;
 }
 
-string preprocess(string source_file){
+string tesseract_preprocess(string source_file){
 	
 
 	char tempPath[128];
@@ -143,7 +143,7 @@ string preprocess(string source_file){
 
 }
 
-string ocr(string preprocessed_file)
+string tesseract_ocr(string preprocessed_file)
 {
 	char *outText;
 	Pix *image = pixRead(preprocessed_file.c_str());
