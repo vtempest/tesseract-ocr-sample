@@ -150,10 +150,10 @@ string ocr(string preprocessed_file)
 	tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
 
 	
-	TCHAR NPath[MAX_PATH];
-	GetCurrentDirectory(MAX_PATH, NPath);
+	TCHAR CurDir[MAX_PATH];
+	GetCurrentDirectory(MAX_PATH, CurDir);
 
-	api->Init(NPath, "eng");  
+	api->Init(CurDir, "eng");  
 	api->SetPageSegMode(tesseract::PSM_AUTO_OSD); //PSM_SINGLE_BLOCK PSM_AUTO_OSD
 
 	
