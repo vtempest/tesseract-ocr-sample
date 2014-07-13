@@ -16,7 +16,7 @@ VC++ Directories>Include Directories:
 C/C++>Preprocessor>Preprocessor Definitions:
 ```
 
-\_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
+ _CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
 ```
 
 C/C++>Linker>Input>Additional Dependencies:
@@ -27,6 +27,7 @@ C/C++>Linker>Input>Additional Dependencies:
 Now you can include headers in your project's file:
 
 ```#include <baseapi.h>```
+
 ```#include <allheaders.h>```
 
 
