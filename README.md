@@ -15,7 +15,6 @@ VC++ Directories>Include Directories:
 
 C/C++>Preprocessor>Preprocessor Definitions:
 ```
-
  _CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
 ```
 
