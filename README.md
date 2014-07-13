@@ -42,4 +42,4 @@ api->Init("D:\\tessdataParentFolder\\", ...
 
 ## Sample
 
-You can compile the provided sample, which takes one command line argument of the image path to use. The preprocess()  function uses Leptonica to create a black and white book-like copy of the image which makes tesseract work with 90% accuracy. The ocr() function shows the  functionality of the Tesseract API to return a string output. The toClipboard() can be used to save text to clipboard on Windows. You can copy these into yoru own projects.
+You can compile the provided sample, which takes one command line argument of the image path to use. The preprocess()  function uses Leptonica to create a black and white book-like copy of the image which makes tesseract work with 90% accuracy. The ocr() function shows the  functionality of the Tesseract API to return a string output. The toClipboard() can be used to save text to clipboard on Windows. You can copy these into your own projects.
