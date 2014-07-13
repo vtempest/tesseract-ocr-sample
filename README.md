@@ -14,7 +14,9 @@ VC++ Directories>Include Directories:
 ```
 
 C/C++>Preprocessor>Preprocessor Definitions:
-```d
+```
+
+\_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
 ```
 
 C/C++>Linker>Input>Additional Dependencies:
@@ -32,8 +34,10 @@ Now copy the two dll files in tesseract-include and the tessdata folder in Debug
 
 When you initialize tesseract, you need to specify the location of the parent folder (!important) of the tessdata folder if it is not already the current directory of your executable file. You can copy my script, which assumes tessdata will is installed in the executable's folder.
 
+```
 tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
 api->Init("D:\\tessdataParentFolder\\", ...
+```
 
 
 ## Sample
