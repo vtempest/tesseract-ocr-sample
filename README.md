@@ -1,6 +1,6 @@
 ## Tesseract OCR Sample (Visual Studio) with Leptonica Preprocessing
 
-Tesseract OCR 3.02.02 API can be confusing, so this guides you through including the Tesseract and Leptonica dll into a Visual Studio C++ Project, and  provides a sample file which takes an image path to preprocess and OCR. The preprocessing script in Leptonica converts the input image into black and white book-like text.
+This guides you through including the Tesseract OCR 3.02 API and Leptonica dll into a Visual Studio C++ Project, and  provides a sample file which takes an image path to preprocess and OCR. The preprocessing script in Leptonica converts the input image into black and white book-like text and substantially improves accuracy.
 
 ### Setup
 
