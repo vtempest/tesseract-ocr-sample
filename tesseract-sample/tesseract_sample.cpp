@@ -96,7 +96,7 @@ string tesseract_preprocess(string source_file){
 
 
 		// Get the average intensity of the border pixels,
-		with average of 0.0 being completely white and 1.0 being completely black. 
+		//with average of 0.0 being completely white and 1.0 being completely black. 
 		border_avg = pixAverageOnLine(otsu_pixs, 0, 0, otsu_pixs->w - 1, 0, 1);                               // Top 
 		border_avg += pixAverageOnLine(otsu_pixs, 0, otsu_pixs->h - 1, otsu_pixs->w - 1, otsu_pixs->h - 1, 1); // Bottom 
 		border_avg += pixAverageOnLine(otsu_pixs, 0, 0, 0, otsu_pixs->h - 1, 1);                               // Left 
